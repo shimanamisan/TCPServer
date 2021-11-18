@@ -1,0 +1,25 @@
+﻿<Window x:Class="TCPServer.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:TCPServer"
+        mc:Ignorable="d"
+        Title="TCPServer" Height="500" Width="500">
+    <Grid>
+        <StackPanel 
+            VerticalAlignment="Center"
+            HorizontalAlignment="Center"
+                    >
+            <Button Content="TCPサーバ起動"
+                    Command="{Binding ExecuteStartTCPServer}"
+                    HorizontalAlignment="Left"
+                    VerticalAlignment="Top"
+                    Width="100"
+                    Height="50"
+                    />
+        </StackPanel>
+        
+
+    </Grid>
+</Window>
